@@ -25,4 +25,5 @@ if con.is_connected():
     print(f'Conteudo: {rs}')
     for r in rs:
         print(f'Tamanho: {len(r)}')
+        
         print(f'Nome do Produto:{r[1]} Quantidade:{r[2]}')
